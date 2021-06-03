@@ -1,4 +1,4 @@
-text {
+.text {
   text-align: center;
 }
 
@@ -6,5 +6,16 @@ text {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 50%;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.candy-image {
+  width: 200px;
+  height: 200px;
 }
